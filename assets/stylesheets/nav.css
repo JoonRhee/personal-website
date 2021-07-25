@@ -1,0 +1,33 @@
+#nav-section{
+    z-index: 999;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(248,249,250,0.75);
+    position:sticky;
+    top:0;
+}
+#nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-txt{
+    color:#212529;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: min(3vw,20px);
+    padding:10px 0px 10px;
+    flex-grow:1;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav-txt:hover{
+    animation:fadeIn;
+    animation-duration: 0.2s;
+    color:#F8F9FA;
+    background-color: #212529;
+}

@@ -1,0 +1,11 @@
+<link rel='stylesheet' type='text/css' href='/stylesheets/edu.css'/>
+<div id="edu-section" class="section">
+    <span id="edu" class="content-container">
+        <text class="txt-title"><%= edu.title %></text>
+        <span id="edu-content">
+            <% for(i in edu.item){ %>
+                <%- include('partials/edu-item') %>
+            <% } %> 
+        </span>
+    </span>
+</div>

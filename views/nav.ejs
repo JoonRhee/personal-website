@@ -1,0 +1,13 @@
+<link rel='stylesheet' type='text/css' href='/stylesheets/nav.css'/>
+<div id="nav-section">
+    <span id="nav" class="content-container">
+        <% for(i in nav){%>
+            <a class="nav-txt nav-<%= nav[i].txt %>" ><%= nav[i].txt %> </a>
+            <script>
+                $(".nav-<%= nav[i].txt %>").click(function() {
+                    $('html, body').animate({scrollTop: $("#<%= nav[i].link %>").offset().top-$('#nav').height()*1.43}, 500);
+                });
+            </script>
+        <%}%>
+    </span>
+</div>

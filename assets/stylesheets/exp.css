@@ -1,0 +1,31 @@
+#exp-section{
+    z-index: 4;
+    background-color:#ADB5BD;
+    color:#212529;
+}
+
+#exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#exp-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.exp-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:min(100%,720px);
+    margin: 10px 0px 10px;
+}
+.exp-txt{
+    width:100%;
+}
+.exp-img{
+    margin-right: 1%;
+    width: min(40%,180px);
+}

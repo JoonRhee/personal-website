@@ -1,0 +1,32 @@
+#contact-section{
+    z-index: 6;
+    background-color:#111315;
+    color:#F8F9FA;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-icons{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:min(15vw,60px);
+}
+
+.contact-icon{
+    color:#F8F9FA;
+}
+
+.contact-icon:hover{
+    color:#ADB5BD;
+}
+
+.copyright{
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+#about-section{
+    z-index: 2;
+    background-color:#212529;
+    color:#F8F9FA;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#progress{
+    cursor: wait;
+}

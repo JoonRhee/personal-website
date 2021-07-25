@@ -1,0 +1,16 @@
+<text>
+    I am <text id="progress"></text> done with my service. (<text id="days-served"></text> days served, <text id="days-left"></text> days to go.)
+</text>
+<script>
+    let progress = document.getElementById("progress");
+    let percentDone = ((Date.now()-Date.parse("2020-09-01"))/(Date.parse("2022-02-28")-Date.parse("2020-09-01"))*100).toFixed(7);
+    
+    function calc_progress(){
+        percentDone = ((Date.now()-Date.parse("2020-09-01"))/(Date.parse("2022-02-28")-Date.parse("2020-09-01"))*100).toFixed(7);
+        progress.innerHTML = ""+percentDone+"%";
+    }
+
+    setInterval(calc_progress,50);
+    document.getElementById("days-served").innerHTML = Math.round((Date.now()-Date.parse("2020-09-01"))/86400000);
+    document.getElementById("days-left").innerHTML = Math.round((Date.parse("2022-02-28")-Date.now())/86400000);
+</script>

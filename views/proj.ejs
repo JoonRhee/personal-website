@@ -1,0 +1,11 @@
+<link rel='stylesheet' type='text/css' href='/stylesheets/proj.css'/>
+<div id="proj-section" class="section">
+    <span id="proj" class="content-container">
+        <text class="txt-title"><%= proj.title %></text>
+        <span id="proj-content">
+            <% for(i in proj.item){ %>
+                <%- include('partials/proj-item') %>
+            <% } %> 
+        </span>
+    </span>
+</div>

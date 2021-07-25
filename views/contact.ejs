@@ -1,0 +1,13 @@
+<link rel='stylesheet' type='text/css' href='/stylesheets/contact.css'/>
+<div id="contact-section" class="section">
+    <div id="contact" class="content-container">
+        <div id="contact-icons">
+            <% for(i in contact) { %>
+                <a class = "contact-icon" href=<%= contact[i].link %>>
+                    <i class= "<%= contact[i].icon %>"></i>
+                </a>
+            <% } %> 
+        </div>
+        <a href="https://seungjoonrhee.herokuapp.com"><img style="width:60px; margin:30px 0px 0px" src="/logo.svg" ></a>
+    </div>
+</div>

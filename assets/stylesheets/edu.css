@@ -1,0 +1,28 @@
+#edu-section{
+    z-index: 3;
+    background-color:#495057;
+    color:#F8F9FA;
+}
+
+#edu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#edu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.edu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:min(100%,720px);
+    margin: 10px 0px 10px;
+}
+.edu-img{
+    margin-right: 1%;
+    width: min(40%,240px);
+}

@@ -1,0 +1,28 @@
+#header-section{
+    z-index: 1;
+    background-color: #F8F9FA;
+    color:#212529;
+    overflow-x: hidden;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height:min(50vw,370px);
+}
+#header-txt{
+    margin-right: 1%;
+    opacity: 0;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+#header-img{
+    margin-left: 1%;
+    width: min(40%,270px);
+    opacity: 0;
+    animation: fadeInRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}

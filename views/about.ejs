@@ -1,0 +1,13 @@
+<link rel='stylesheet' type='text/css' href='/stylesheets/about.css'/>
+<div id="about-section" class="section">
+    <span id="about" class="content-container">
+        <text class="txt-title"><%= about.title %></text>
+        <text class="txt-large">
+            <%- about.txt %>
+            <%- include('partials/discharge-calc') %> 
+        </text>
+    </span>
+    <script>
+        checkVisible(document.getElementById("about"))
+    </script>
+</div>

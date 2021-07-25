@@ -1,0 +1,27 @@
+<span class="proj-item">
+    <a class="proj-img" <%= proj.item[i].link == null ? "":("href="+proj.item[i].link) %>  >
+        <img class="proj-img" src=<%- proj.item[i].img %> >
+    </a>
+    <span class="proj-txt txt-regular">
+        <span class="div-split txt-gap">
+            <text class="div-split-left">
+                <b><%- proj.item[i].name %> </b>
+            </text>
+            <text class="div-split-right">
+                <%- proj.item[i].type %> 
+            </text>
+        </span>
+        <%- proj.item[i].award == null ? "":("<text class=\"txt-gap\"><i class=\"fas fa-trophy\"></i> <i>"+proj.item[i].award+"</i></text>") %>
+        <text class="txt-gap">
+            <%= proj.item[i].description %> 
+        </text>
+        <span class="proj-tags">
+            <% for(j in proj.item[i].tags){ %>
+                <text class="proj-tag txt-small">
+                    <%- proj.item[i].tags[j] %> 
+                </text>
+            <% } %> 
+        </span>
+
+    </span>
+</span>
