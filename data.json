@@ -1,6 +1,8 @@
 {
     "icon":"/logo.svg",
 
+    "URL":"https://seungjoonrhee.herokuapp.com/",
+
     "nav":[
         {"txt":"About", "link":"about"},
         {"txt":"Education", "link":"edu"},
