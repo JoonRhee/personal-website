@@ -1,7 +1,9 @@
 <span class="photo-slider">
 
     <% for(i in photo.links) { %> 
-        <img class="photo-img" src=<%= photo.links[i] %>> 
+        <span  >
+            <img id="photo-img-<%= i %>" onload="imgOnLoad('photo-img-<%= i %>')" class="img-loading photo-img" src=<%= photo.links[i] %>>
+        </span> 
     <% } %> 
     <span class = "photo-browser">
         <i onclick="scrollImage(false)" class="fas fa-angle-left photo-button"></i>

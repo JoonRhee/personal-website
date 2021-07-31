@@ -14,15 +14,20 @@
 #header-txt{
     margin-right: 1%;
     opacity: 0;
-    animation: fadeInLeft;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 #header-img{
     margin-left: 1%;
     width: min(40%,270px);
     opacity: 0;
+}
+.header-img-loaded{
     animation: fadeInRight;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.header-txt-loaded{
+    animation: fadeInLeft;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }

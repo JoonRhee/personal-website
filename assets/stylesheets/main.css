@@ -7,7 +7,7 @@ html,body{
 .content-container{
     width:min(95%,960px);
     animation: fadeIn;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .section{
@@ -46,6 +46,18 @@ html,body{
 }
 
 /*#endregion*/
+
+/* #region img */
+.img-loading{
+    opacity: 0;
+}
+
+.img-loaded{
+    opacity: 100;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+/* #endregion */
 
 /*#region div-split*/
 .div-split{

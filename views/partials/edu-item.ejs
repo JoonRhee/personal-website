@@ -1,6 +1,6 @@
 <span class="edu-item">
-    <span class="edu-img">
-        <img style="width:100%" src=<%= edu.item[i].img %> >
+    <span id="edu-img-<%= i %>" class="edu-img img-loading">
+        <img onload="imgOnLoad(`edu-img-<%= i %>`)" style="width:100%" src=<%= edu.item[i].img %> >
     </span>
     <text class="txt-large" class="edu-txt">
         <%- edu.item[i].txt %> 

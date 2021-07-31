@@ -1,9 +1,15 @@
 <link rel='stylesheet' type='text/css' href='/stylesheets/header.css'/>
+<script>
+    function headerLoaded(){
+        document.getElementById("header-txt").classList.add("header-txt-loaded");
+        document.getElementById("header-img").classList.add("header-img-loaded");
+    }
+</script>
 <div id="header-section" class="section">
     <span id="header" class="content-container">
         <text id="header-txt" class="txt-title"><%= header.txt %></text>
         <span id="header-img">
-            <img style="width:100%" src=<%= header.img %>>
+            <img onload="headerLoaded()" style="width:100%" src=<%= header.img %>>
         </span>
     </span>
 </div>

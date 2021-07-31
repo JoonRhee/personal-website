@@ -27,9 +27,6 @@
 
 .photo-img-visible{
     display: block;
-    animation: fadeIn;
-    animation-duration: 1s;
-    animation-fill-mode:forwards;
 
 }
 
