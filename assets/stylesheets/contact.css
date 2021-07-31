@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size:60px;
     font-size:min(15vw,60px);
 }
 

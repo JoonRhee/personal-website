@@ -31,6 +31,7 @@
 }
 
 .photo-button{
+    font-size:60px;
     font-size:min(15vmin,60px);
     color:#495057;
     cursor: pointer;
@@ -38,14 +39,16 @@
 
 .photo-locators{
     display: flex;
+    width:500px;
     width:min(90%,500px);
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .photo-locator{
     text-align: center;
     vertical-align: middle;
     padding:2px;
+    font-size:15px;
     font-size:min(5vw,15px);
     cursor: pointer;
 }

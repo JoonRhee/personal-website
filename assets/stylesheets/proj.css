@@ -11,6 +11,7 @@
 }
 #proj-content {
     display: grid;
+    grid-template-columns: repeat(3 , 320px);
     grid-template-columns: repeat(auto-fill, min(100%,320px));
     align-items: start;
     justify-items:center;
@@ -24,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:300px;
     width:min(100%,300px);
     border-radius: 10px;
     margin:10px;

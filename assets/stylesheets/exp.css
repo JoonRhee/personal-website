@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:720px;
     width:min(100%,720px);
     margin: 10px 0px 10px;
 }
@@ -27,5 +28,6 @@
 }
 .exp-img{
     margin-right: 1%;
+    width: 180px;
     width: min(40%,180px);
 }
