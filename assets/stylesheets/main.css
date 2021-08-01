@@ -26,21 +26,21 @@ html,body{
 }
 
 .txt-large{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:18px;
     font-size:min(4vw,18px);
 
 }
 
 .txt-regular{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:14px;
     font-size:min(3vw,14px);
 
 }
 
 .txt-small{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:12px;
     font-size:min(2.5vw,12px);
 
