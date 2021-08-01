@@ -28,8 +28,6 @@
     justify-content: space-between;
     align-items: center;
     width:300px;
-    height:auto;
-    height:fit-content;
     width:min(100%,300px);
     border-radius: 10px;
     margin:10px;
@@ -43,8 +41,6 @@
 }
 .proj-img{
     width:100%;
-    height:300px;
-    height:fit-content;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
