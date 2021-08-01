@@ -24,6 +24,8 @@
     <link rel='stylesheet' type='text/css' href='/stylesheets/main.css'/>
 
     <script>
+        var isIE = false || !!document.documentMode;
+
         function imgOnLoad(id){
             let elemClass = document.getElementById(id).classList;
             elemClass.add("img-loaded");

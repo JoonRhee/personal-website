@@ -2,7 +2,7 @@
 
     <% for(i in photo.links) { %> 
         <span  >
-            <img id="photo-img-<%= i %>" onload="imgOnLoad('photo-img-<%= i %>')" class="img-loading photo-img" src=<%= photo.links[i] %>>
+            <img id="photo-img-<%= i %>" onload="imgOnLoad('photo-img-<%= i %>')" class="img-loading photo-img" src="<%= photo.links[i] %>">
         </span> 
     <% } %> 
     <span class = "photo-browser">
@@ -20,7 +20,17 @@
         var images = document.getElementsByClassName("photo-img");
         var locators = document.getElementsByClassName("photo-locator");
 
-        const showImage = (index) => {
+        var isIE = false || !!document.documentMode;
+
+        if(isIE){
+            let photos = document.getElementsByClassName("photo-img");
+            for(let i = 0; i < photos.length; i++){
+                photos[i].classList.add("photo-img-IE")
+            }
+        }
+
+
+        function showImage(index){
             for(let i = 0; i < images.length;i++){
                 images[i].classList.remove("photo-img-visible");
                 images[i].classList.add("photo-img-hidden");
@@ -32,7 +42,7 @@
             currIndex = index;
         }
 
-        const scrollImage = (isRight) =>{
+        function scrollImage(isRight){
             isRight ? currIndex++ : currIndex--;
             if(currIndex < 0){currIndex = images.length-1};
             if(currIndex >= images.length){currIndex = 0};

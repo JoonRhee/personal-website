@@ -20,6 +20,10 @@
     height:65vh;
 }
 
+.photo-img-IE{
+    height:auto;
+}
+
 .photo-img-hidden{
     display: none;
 
