@@ -1,7 +1,16 @@
 {
-    "icon":"/logo.svg",
 
+    "title":"Seung Joon Rhee",
+    
+    "img":"https://drive.google.com/uc?id=1E6J7AUSbwK0-lkkQSMVJVaQiM1LBKSZ4",
+
+    "author":"Seung Joon Rhee",
+
+    "description":"Seung Joon Rhee's personal website!",
+    
     "URL":"https://seungjoonrhee.herokuapp.com/",
+    
+    "icon":"/logo.svg",
 
     "nav":[
         {"txt":"About", "link":"about"},
