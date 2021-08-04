@@ -45,6 +45,18 @@
     border-top-right-radius: 10px;
 }
 
+@keyframes on-hover {
+}
+
+.proj-img-linked{
+    transition: transform 0.25s;
+    transition-timing-function: ease-out;
+}
+
+.proj-img-linked:hover{
+    transform:translateY(-2.5%);
+}
+
 .proj-tags{
     display: flex;
     flex-flow: row wrap;

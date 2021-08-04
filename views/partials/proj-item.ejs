@@ -1,11 +1,11 @@
 <span class="proj-item">
     <a id="proj-img-<%= i %>" class="proj-img img-loading" <%= proj.item[i].link == null ? "":("href="+proj.item[i].link) %>  >
-        <img onload="imgOnLoad('proj-img-<%= i %>')" class="proj-img" src="<%- proj.item[i].img %>" >
+        <img onload="imgOnLoad('proj-img-<%= i %>')" class="proj-img <%- proj.item[i].link ? "proj-img-linked":"" %>" src="<%- proj.item[i].img %>" >
     </a>
     <span class="proj-txt txt-regular">
         <span class="div-split txt-gap">
             <text class="div-split-left">
-                <b><%- proj.item[i].name %> </b>
+                <b><%- proj.item[i].name %> </b><%- proj.item[i].link ? '<a style = "color:#212529;" href =' + proj.item[i].link + '><i  class="fas fa-link"></i></a>':"" %>
             </text>
             <text class="div-split-right">
                 <%- proj.item[i].type %> 
