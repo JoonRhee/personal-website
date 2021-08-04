@@ -45,9 +45,6 @@
     border-top-right-radius: 10px;
 }
 
-@keyframes on-hover {
-}
-
 .proj-img-linked{
     transition: transform 0.25s;
     transition-timing-function: ease-out;
