@@ -2,12 +2,67 @@
 <div id="nav-section">
     <span id="nav" class="content-container">
         <% for(i in nav){%>
-            <a class="nav-txt nav-<%= nav[i].txt %>" ><%= nav[i].txt %> </a>
+            <a id="nav-<%= nav[i].link %>" class="nav-txt" ><%= nav[i].txt %> </a>
             <script>
-                $(".nav-<%= nav[i].txt %>").click(function() {
-                    $('html, body').animate({scrollTop: $("#<%= nav[i].link %>").offset().top-$('#nav').height()*1.43}, 500);
+                $("#nav-<%= nav[i].link %>").click(function() {
+                    $('html, body').animate({scrollTop: $("#<%= nav[i].link %>-section").position().top-$('#nav-section').height()+1}, 420);
                 });
             </script>
         <%}%>
     </span>
+
+    <script>
+    var elems = []
+    var elemsPos = [];
+    var selected = null;
+
+    <% for(var i in nav) {%>
+        elems.push("<%= nav[i].link %>");
+    <%}%>
+    
+    function scrollSelect(){
+
+        elemsPos = [];
+        elems.map(function x(elem){ elemsPos.push($("#"+elem+"-section").position().top) +5 });
+        let curr = 0;
+        for(curr;curr<elemsPos.length;curr++){
+            if(elemsPos[curr] > $(window).scrollTop()+$('#nav-section').height() + $(window).height()/5){
+                break;
+            }
+        }
+        if($(document).height() < $(window).scrollTop() + $(window).height() + 50){
+            curr = elemsPos.length;
+        }
+        curr -= 1;
+        
+        if(selected != curr){
+            if(selected == -1){
+                $("#nav").removeClass("nav-section-top");
+            }else{
+                $("#nav-"+elems[selected]).removeClass("nav-selected");
+            }
+
+            if(curr == -1){
+                $("#nav").addClass("nav-section-top");
+            }else{
+                $("#nav-"+elems[curr]).addClass("nav-selected");
+            }
+            
+            selected = curr
+        }
+
+
+
+    }
+
+    function onReady(){
+        scrollSelect();
+        $(window).on("scroll resize",scrollSelect);
+    }
+    $(document).ready(onReady);
+
+    
+        
+    </script>
+
 </div>

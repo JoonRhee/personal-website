@@ -4,11 +4,6 @@
     color:#212529;
 }
 
-#proj {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 #proj-content {
     display: flex;
     flex-flow: row wrap;
@@ -23,15 +18,10 @@
 }
 .proj-item{
     background-color:#F8F9FA;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width:300px;
-    width:min(100%,300px);
+    max-width:300px;
+    width:100%;
     border-radius: 10px;
     margin:10px;
-    height:fit-content;
 }
 .proj-txt{
     width:95%;

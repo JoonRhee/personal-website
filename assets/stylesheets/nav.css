@@ -1,20 +1,31 @@
 #nav-section{
+    overflow-x: hidden;
+    overflow-y: hidden;
     z-index: 999;
     width:100%;
     display: flex;
     justify-content:center;
     align-items:center;
-    background-color: rgba(248,249,250,0.75);
-    position:sticky;
-    top:0;
+    background-color: rgba(248,249,250,1);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
+.nav-section-top{
+    transform:scale(1.05);
+}
+
 #nav{
     display: flex;
     justify-content:space-between;
     align-items:center;
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
 }
 .nav-txt{
     color:#212529;
+    background-color: rgba(0,0,0,0);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -24,11 +35,16 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    transition: all 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.nav-selected{
+    color:#F8F9FA;
+    background-color:#212529;
 }
 
 .nav-txt:hover{
-    animation:fadeIn;
-    animation-duration: 0.2s;
     color:#F8F9FA;
-    background-color: #212529;
+    background-color:#212529;
 }

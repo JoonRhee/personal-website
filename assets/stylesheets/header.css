@@ -9,17 +9,14 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height:370px;
-    height:min(50vw,370px);
 }
 #header-txt{
     margin-right: 1%;
     opacity: 0;
 }
 #header-img{
-    margin-left: 1%;
-    width: 270px;
-    width: min(40%,270px);
+    height: 47.5vmin;
+    min-height:300px;
     opacity: 0;
 }
 .header-img-loaded{

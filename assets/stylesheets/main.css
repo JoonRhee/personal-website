@@ -5,8 +5,8 @@ html,body{
 }
 
 .content-container{
-    width:960px;
-    width:min(95%,960px);
+    width:95%;
+    max-width:960px;
     animation: fadeIn;
     animation-duration: 1s;
 }
