@@ -1,14 +1,14 @@
 {
-
+    
     "title":"Seung Joon Rhee",
     
-    "img":"https://drive.google.com/uc?id=1E6J7AUSbwK0-lkkQSMVJVaQiM1LBKSZ4",
+    "img":"/profile1x1.jpg",
 
     "author":"Seung Joon Rhee",
 
     "description":"Seung Joon Rhee's personal website!",
     
-    "URL":"https://seungjoonrhee.herokuapp.com/",
+    "URL":"https://seungjoonrhee.me",
     
     "icon":"/logo.svg",
 
@@ -28,13 +28,13 @@
 
     "about":{
         "title":"About Me",
-        "txt":"  I am currently serving in Republic Of Korea Army to finish my compulsory military service.<br><br>Before I was in Korean Army, I was pursuing my passion for technology and mathematics in the University Of Maryland, College Park.<br><br>I love learning new concepts and applying my new knowledge by building and conceptualizing various projects and products.<br><br>I am always open to new ideas and improving my skills.<br><br>I am currently deeply interested in Machine Learning, graphic design, PCB design, and mechanical keyboards."
+        "txt":"I am a student from South Korea following my passion for computer science at the University Of Maryland, College Park. I love expressing my creativity through personal projects and products. I am always learning new ideas, tools, and technologies to expand my horizons and improve my skills.<br><br>Besides work, I enjoy photography to cherish moments of my life, graphics design to cultivate my artistic side, and video games to improve my teamwork skills. I also love being exposed to different cultures and languages. I am capable of Korean, English, Japanese, and Chinese due to my fascination and multicultural background.<br><br>Currently, I am serving in the Republic Of Korea Army as a Motor Transport Operator to complete compulsory military service. I was appointed squad leader in May 2021 and awarded the Model Operator Award from my battalion."
     },
 
     "edu":{
         "title":"Education",
         "item":[
-            {"txt":"<b>University Of Maryland, College Park</b><br><i>BS in Computer Science</i><br>Class Of 2024<br>GPA: 3.90<br>Honors College","img":"/edu/UMD.png"}
+            {"txt":"<b>University Of Maryland, College Park</b><br><i>BS in Computer Science</i><br>Class Of 2024<br>GPA: 3.89<br>Honors College","img":"/edu/UMD.png"}
         ]
     },
     
@@ -44,10 +44,10 @@
             {
                 "img":"/exp/ROKA.png",
                 "name":"The Republic of Korea Army",
-                "time":"Sept 2020 - present",
+                "time":"Sept 2020 - Feb 2022",
                 "pos":"Corporal, Squad Leader",
                 "loc":"Hwacheon, South Korea",
-                "description":"Coordinated, supervised and trained motor transport squad members. Communicated squad related details to superiors. Operated and maintained military vehicle for artillery battery. Appointed to motor transport squad leader on May 2021."
+                "description":"Served as a Motor Transport Operator. Appointed to squad leader on May 2021. Coordinated, supervised, and trained squad members. Communicated squad-related details to superiors. Operated and maintained military vehicles for an artillery battery."
             },
             {
                 "img":"/exp/Skonec.png",
@@ -55,7 +55,7 @@
                 "time":"Jun 2018 – Aug 2018",
                 "pos":"Software Engineer Intern",
                 "loc":"Seoul, South Korea",
-                "description":"Helped designing a VR theater application that connects to LG VOD service using Unity. Planned a critical design review and organized internal APIs for the application to properly communicate with LG VOD server."
+                "description":"Designed a VR theater application that connects to LG VOD service using Unity. Planned a critical design review and organized LG VOD internal APIs for the application."
             },
             {
                 "img":"/exp/GMU.png",
@@ -63,7 +63,7 @@
                 "time":"Jun 2016 – Aug 2016",
                 "pos":"Student Researcher",
                 "loc":"Fairfax, VA",
-                "description":"Assisted Dr. Indu Satija to further understand a mathematical object called Hofstadter’s Butterfly. Generated and analyzed the correlation between Hofstadter’s Butterfly and Integral Apollonian Circles using Java."
+                "description":"Assisted Dr. Indu Satija with further exploring a mathematical object called Hofstadter’s Butterfly. Generated and analyzed the correlation between Hofstadter’s Butterfly and Integral Apollonian Circles using Java."
             }
         ]
     },
@@ -72,7 +72,7 @@
         "item":[
             {
                 "img":"/proj/sokket.png",
-                "link":null,
+                "link":"https://github.com/JoonRhee/Sokket-PC",
                 "name":"Sokket!",
                 "type":"Personal Project",
                 "award":null,
@@ -81,11 +81,11 @@
             },
             {
                 "img":"/proj/oraclebone.png",
-                "link":null,
+                "link":"https://github.com/JoonRhee/OracleBone",
                 "name":"OracleBone",
                 "type":"Personal Project",
                 "award":null,
-                "description":"CJK character dictionary mobile application that displays character’s meaning, related words, and difficulty levels in Chinese, Japanese, and Korean.",
+                "description":"CJK character dictionary mobile application. It displays the character’s meaning, related words, and difficulty levels in Chinese, Japanese, and Korean.",
                 "tags":["W.I.P. <i class=\"fas fa-wrench\"></i>","React Native","Beautiful Soup","SQLite"]
             },
             {
@@ -103,7 +103,7 @@
                 "name":"iGraduated",
                 "type":"TOHacks 2020",
                 "award":"Best use of MongoDB Atlas",
-                "description":"A platform that helps schools to arrange virtual graduation ceremony without losing the excitement of the event.",
+                "description":"A platform that helps schools to arrange virtual graduation ceremonies without losing the excitement of the event.",
                 "tags":["Twilio","MongoDB","Express.js","React","Socket.io","GCP"]
             },
             {
@@ -117,12 +117,12 @@
             },
             {
                 "img":"/proj/website.png",
-                "link":null,
-                "name":"Personal website & logo",
+                "link":"https://seungjoonrhee.me/",
+                "name":"Website & Logo",
                 "type":"Personal Project",
                 "award":null,
-                "description":"well... You are looking at it right now! This website and logo was designed while I was in the military.",
-                "tags":["ejs","Express.js","Adobe Photoshop","Adobe Illustrator"]
+                "description":"Well, you are looking at it right now! I completed this project during my military service.",
+                "tags":["ejs","Express.js","Google Drive","Adobe Photoshop","Adobe Illustrator"]
             },
             {
                 "img":"/proj/supplyme.png",
@@ -130,16 +130,16 @@
                 "name":"SupplyMe",
                 "type":"HooHacks 2020",
                 "award":null,
-                "description":"SupplyMe is an application to connect users with pharmacies during pandemics such as the current COVID-19 crisis. Stores notify users with their available supply to prevent clustering and spreading.",
+                "description":"SupplyMe is an application to connect users with pharmacies during pandemics such as the current COVID-19 crisis. Stores can notify users of their available supply to prevent clustering and spreading.",
                 "tags":["GCP","MongoDB","Express.js","React","Twilio"]
             },
             {
                 "img":"/proj/neuralnetwork.png",
-                "link":null,
+                "link":"https://github.com/JoonRhee/NeuralNetwork",
                 "name":"Number Recognition Neural Network",
                 "type":"Personal Project",
                 "award":null,
-                "description":"A rudimentary feedforward neural network built from scratch that recognizes 28x28 handwritten images of a certain digit. Trained with MNIST handwritten digits training set and written in C#.",
+                "description":"It is a rudimentary feedforward neural network built from scratch. It recognizes 28x28 handwritten images of a digit. Trained with MNIST handwritten digits training set and written in C#.",
                 "tags":["MNIST","C#"]
             },
             {
@@ -148,7 +148,7 @@
                 "name":"Tilted",
                 "type":"Personal Project",
                 "award":null,
-                "description":"A mobile app to go along with the popular online game called League of Legends. Analyzes in-game player records to estimate the possible win chance of the current game and provides various statistics about other in-game players.",
+                "description":"A mobile app to go along with the popular online game called League of Legends. Analyzes in-game player records to estimate the possible win chance of the game and provides various statistics about other in-game players.",
                 "tags":["Android Studio","Riot API"]
             }
         ]
@@ -157,16 +157,16 @@
     "photo":{
         "title":"Photography",
         "links":[
-            "https://drive.google.com/uc?id=13BPDUME8mqmDmhNYVCkvljPqSCTlXyv5", 
-            "https://drive.google.com/uc?id=1eWX2jturwUGA7CmRFfoDXcwP9oyiv49c", 
-            "https://drive.google.com/uc?id=1Kk1CkhJ475cjO0ER_2zqMRPrRYfmrJS6", 
-            "https://drive.google.com/uc?id=1jkFtGOKz6JtXOyvnxyruykWtlxWJtM_o", 
-            "https://drive.google.com/uc?id=1Yujp38rX4F-ZtwLJu81OaoO38JqU4_NR", 
-            "https://drive.google.com/uc?id=15N_pNmHqGvZtBrAY-942Y3Fo68fX5lhc", 
-            "https://drive.google.com/uc?id=1JDa90r5zUTW5rC_NizgC7JPHrtyLrhN4", 
-            "https://drive.google.com/uc?id=1goosyxun0-k2PKtLylmsJNlfQGuTD-1u", 
-            "https://drive.google.com/uc?id=12MZ0FGqy8Uvz-vwNc8nx4gjIuszTstDZ", 
-            "https://drive.google.com/uc?id=1Lxhhcwh1yogEPjc2MfVl7COQ50tSUHPf"
+            "/photo/camera.jpg",  
+            "/photo/mirror.jpg",
+            "/photo/cake.jpg",
+            "/photo/colorized.jpg", 
+            "/photo/birdphone.jpg", 
+            "/photo/usa.jpg", 
+            "/photo/drowning.jpg", 
+            "/photo/statue.jpg", 
+            "/photo/clock.jpg", 
+            "/photo/arcade.jpg"
         ]
     },
 
@@ -175,6 +175,6 @@
         {"icon":"fab fa-instagram-square","link":"https://www.instagram.com/rhee.joon/"},
         {"icon":"fas fa-envelope-square","link":"mailto:sj78sj78@gmail.com"},
         {"icon":"fab fa-linkedin","link":"https://www.linkedin.com/in/seung-joon-rhee/"},
-        {"icon":"fas fa-save","link":"https://drive.google.com/uc?export=download&id=10jTKBVAANllPoR7e3hcmyG6YJH8-2pL2"}
+        {"icon":"fas fa-save","link":"https://drive.google.com/uc?export=download&id=16c0-Zi2WfkA5JFxOLQ2ZNoWj7s5B_qiU"}
     ]
 }
