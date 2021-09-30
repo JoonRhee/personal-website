@@ -47,7 +47,7 @@
                 "time":"Sept 2020 - Feb 2022",
                 "pos":"Corporal, Squad Leader",
                 "loc":"Hwacheon, South Korea",
-                "description":"Served as a Motor Transport Operator. Appointed to squad leader on May 2021. Coordinated, supervised, and trained squad members. Communicated squad-related details to superiors. Operated and maintained military vehicles for an artillery battery."
+                "description":"Served as a Motor Transport Operator. Appointed to squad leader in May 2021. Awarded with the Model Operator Award from the battalion. Coordinated, supervised, and trained squad members. Communicated squad-related details such as daily reports and feedbacks to superiors. Operated and maintained military vehicles for an artillery battery."
             },
             {
                 "img":"/exp/Skonec.png",
@@ -55,7 +55,7 @@
                 "time":"Jun 2018 – Aug 2018",
                 "pos":"Software Engineer Intern",
                 "loc":"Seoul, South Korea",
-                "description":"Designed a VR theater application that connects to LG VOD service using Unity. Planned a critical design review and organized LG VOD internal APIs for the application."
+                "description":"Designed a Unity-powered mobile VR entertainment application for LG that allows customers to navigate, display, and rate LG's VR VOD (Video On Demand) content. Planned a critical design review and examined LG VOD internal APIs to structure and facilitate the software development process."
             },
             {
                 "img":"/exp/GMU.png",
@@ -63,7 +63,7 @@
                 "time":"Jun 2016 – Aug 2016",
                 "pos":"Student Researcher",
                 "loc":"Fairfax, VA",
-                "description":"Assisted Dr. Indu Satija with further exploring a mathematical object called Hofstadter’s Butterfly. Generated and analyzed the correlation between Hofstadter’s Butterfly and Integral Apollonian Circles using Java."
+                "description":"Assisted Dr. Indu Satija with exploring Hofstadter's Butterfly, a mathematical object linked to the quantum Hall effect. Computed and analyzed the correlation between Hofstadter’s Butterfly and Integral Apollonian Circles using Java to further the mathematical understanding of this theoretical model."
             }
         ]
     },
@@ -85,7 +85,7 @@
                 "name":"OracleBone",
                 "type":"Personal Project",
                 "award":null,
-                "description":"CJK character dictionary mobile application. It displays the character’s meaning, related words, and difficulty levels in Chinese, Japanese, and Korean.",
+                "description":"A mobile application that functions as a CJK(Chinese/Japanese/Korean) character dictionary.",
                 "tags":["W.I.P. <i class=\"fas fa-wrench\"></i>","React Native","Beautiful Soup","SQLite"]
             },
             {
@@ -94,7 +94,7 @@
                 "name":"Food Pool",
                 "type":"Citrus Hack 2020",
                 "award":"Best UI/UX Hack, Best use of Google Cloud, Best UiPath Automation Hack",
-                "description":"Service where friends and strangers could come together to make a group delivery order and communicate through a live group chat.",
+                "description":"A web application that promotes and organizes carpooling when ordering takeout from various restaurants.",
                 "tags":["GCP","React","Express.js","MongoDB","Socket.io","UiPath","Adobe XD"]
             },
             {
@@ -103,7 +103,7 @@
                 "name":"iGraduated",
                 "type":"TOHacks 2020",
                 "award":"Best use of MongoDB Atlas",
-                "description":"A platform that helps schools to arrange virtual graduation ceremonies without losing the excitement of the event.",
+                "description":"A platform that helps schools arrange virtual graduation ceremonies while maintaining the excitement of graduation during COVID-times.",
                 "tags":["Twilio","MongoDB","Express.js","React","Socket.io","GCP"]
             },
             {
@@ -121,7 +121,7 @@
                 "name":"Website & Logo",
                 "type":"Personal Project",
                 "award":null,
-                "description":"Well, you are looking at it right now! I completed this project during my military service.",
+                "description":"Well, you are looking at it right now! I completed this project during my time in the military.",
                 "tags":["ejs","Express.js","Google Drive","Adobe Photoshop","Adobe Illustrator"]
             },
             {
@@ -130,7 +130,7 @@
                 "name":"SupplyMe",
                 "type":"HooHacks 2020",
                 "award":null,
-                "description":"SupplyMe is an application to connect users with pharmacies during pandemics such as the current COVID-19 crisis. Stores can notify users of their available supply to prevent clustering and spreading.",
+                "description":"A web application that connects customers with pharmacies. Stores can notify users of their available supply to prevent clustering and spreading.",
                 "tags":["GCP","MongoDB","Express.js","React","Twilio"]
             },
             {
@@ -139,7 +139,7 @@
                 "name":"Number Recognition Neural Network",
                 "type":"Personal Project",
                 "award":null,
-                "description":"It is a rudimentary feedforward neural network built from scratch. It recognizes 28x28 handwritten images of a digit. Trained with MNIST handwritten digits training set and written in C#.",
+                "description":"It is a rudimentary feedforward neural network built from scratch. It recognizes 28x28 handwritten images of a digit. Trained with MNIST handwritten digits training set.",
                 "tags":["MNIST","C#"]
             },
             {
@@ -148,7 +148,7 @@
                 "name":"Tilted",
                 "type":"Personal Project",
                 "award":null,
-                "description":"A mobile app to go along with the popular online game called League of Legends. Analyzes in-game player records to estimate the possible win chance of the game and provides various statistics about other in-game players.",
+                "description":"A mobile app to go along with League of Legends. Analyzes in-game player records to estimate the possible win chance of the game and provides various statistics about other in-game players.",
                 "tags":["Android Studio","Riot API"]
             }
         ]
