@@ -71,6 +71,15 @@
         "title":"Projects",
         "item":[
             {
+                "img":"/proj/duplicut.png",
+                "link":"https://github.com/JoonRhee/Duplicut",
+                "name":"Duplicut",
+                "type":"Personal Project",
+                "award":null,
+                "description":"Duplicut is an application written in Go with Fyne to search for duplicate files in selected directories. It utilizes Goroutines to speed up searches",
+                "tags":["Go","Fyne"]
+            },
+            {
                 "img":"/proj/sokket.png",
                 "link":"https://github.com/JoonRhee/Sokket-PC",
                 "name":"Sokket!",
