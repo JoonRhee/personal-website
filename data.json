@@ -42,9 +42,17 @@
         "title":"Experience",
         "item":[
             {
+                "img":"/exp/CISESS.png",
+                "name":"Cooperative Institute for Satellite Earth System Studies",
+                "time":"Jun 2022 – Aug 2022",
+                "pos":"Research Intern",
+                "loc":"College Park, MD",
+                "description":"Collaborated with Dr. Bin Zhang and Dr. Xi Shao on Day Night Band satellite imagery processing. Utilized a convolutional neural network called U-Net to mask out noise caused by climate events. Analyzed artificial light trends in multiple urban areas to measure the effectiveness of U-Net."
+            },
+            {
                 "img":"/exp/ROKA.png",
                 "name":"The Republic of Korea Army",
-                "time":"Sept 2020 - Feb 2022",
+                "time":"Sep 2020 - Feb 2022",
                 "pos":"Sergeant, Squad Leader",
                 "loc":"Hwacheon, South Korea",
                 "description":"Served as a Motor Transport Operator. Appointed to squad leader in May 2021. Awarded with the Model Operator Award from the battalion. Coordinated, supervised, and trained squad members. Communicated squad-related details such as daily reports and feedbacks to superiors. Operated and maintained military vehicles for an artillery battery."
