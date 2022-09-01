@@ -42,6 +42,14 @@
         "title":"Experience",
         "item":[
             {
+                "img":"/exp/Amazon.png",
+                "name":"Amazon",
+                "time":"Sep 2022 – Dec 2022",
+                "pos":"Software Dev Engineer Intern",
+                "loc":"Arlington, VA",
+                "description":"Upcoming Software Dev Engineer Intern at Amazon"
+            },
+            {
                 "img":"/exp/CISESS.png",
                 "name":"Cooperative Institute for Satellite Earth System Studies",
                 "time":"Jun 2022 – Aug 2022",
