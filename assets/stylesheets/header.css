@@ -20,13 +20,13 @@
     opacity: 0;
 }
 .header-img-loaded{
-    animation: fadeInRight;
+    animation: fadeIn;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
 .header-txt-loaded{
-    animation: fadeInLeft;
+    animation: fadeIn;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
