@@ -47,7 +47,7 @@
                 "time":"Sep 2022 – Dec 2022",
                 "pos":"Software Dev Engineer Intern",
                 "loc":"Arlington, VA",
-                "description":"Upcoming Software Dev Engineer Intern at Amazon for Fall 2022."
+                "description":"Implemented Cloudwatch metrics to analyze and monitor Amazon’s advertisement service in real time. Arranged an alarm system to notify any anomalies such as increased latency and ad server failure. Finalized and resolved merge conflicts for the release of the new advertisement service feature."
             },
             {
                 "img":"/exp/CISESS.png",
