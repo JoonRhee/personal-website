@@ -43,6 +43,14 @@
         "title":"Experience",
         "item":[
             {
+                "img":"/exp/CU.png",
+                "name":"Columbia University",
+                "time":"Jun 2023 – present",
+                "pos":"Research Assistant",
+                "loc":"New York City, NY",
+                "description":"Coordinated 100+ Google Compute Engine virtual machines to observe Google’s peering connection. Collected and parallel-processed traceroute data to infer connections. Consolidated traceroute data with ASN/IXP prefix matching, reverse DNS lookup, and hostname geolocation inferences to map significant peering locations."
+            },
+            {
                 "img":"/exp/Amazon.png",
                 "name":"Amazon",
                 "time":"Sep 2022 – Dec 2022",
