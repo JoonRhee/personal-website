@@ -34,7 +34,7 @@
     "edu":{
         "title":"Education",
         "item":[
-            {"txt":"<b>Columbia University</b><br><i>BA in Computer Science and Concentration in Mathematics</i><br>2023 - May 2025 <br>GPA: 4.17<br>Computer Science Scholarship Award<br>Phi Beta Kappa Honor Society","img":"/edu/CU.png"},
+            {"txt":"<b>Columbia University</b><br><i>BA in Computer Science<br>Concentration in Mathematics</i><br>2023 - May 2025<br>GPA: 4.17<br>Computer Science Scholarship Award<br>Phi Beta Kappa Honor Society","img":"/edu/CU.png"},
             {"txt":"<b>University Of Maryland, College Park</b><br><i>83 credits towards BS in Computer Science</i><br>2017 - 2019<br>GPA: 3.9<br>Honors College","img":"/edu/UMD.png"}
         ]
     },
